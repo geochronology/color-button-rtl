@@ -4,6 +4,8 @@ export function replaceCamelWithSpaces(colorName) {
   return colorName.replace(/\B([A-Z])\B/g, ' $1');
 }
 
+var foo = 1;
+
 function App() {
   const [buttonColor, setButtonColor] = useState('MediumVioletRed');
   const [disabled, setDisabled] = useState(false);
